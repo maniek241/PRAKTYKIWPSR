@@ -7,7 +7,7 @@ public class zadanie {
         for (int i=0;i<tab.length; i++ ){
            wynik+=tab[i];
         }
-            System.out.println( "Lidzba po dodaniu wynosi" + wynik);
+            System.out.println( "Lidzba po dodaniu wynosi " + wynik);
 
     }
 }
