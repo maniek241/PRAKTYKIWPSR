@@ -30,7 +30,7 @@
 //        }
 //
 //
-//        public static void main(String[] args){
+//        public static void zadanei03.main(String[] args){
 //            Scanner scanner = new Scanner(System.in);
 //
 //            System.out.println("Podaj a, b ,c: ");
