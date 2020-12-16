@@ -4,29 +4,29 @@ public class cesarcyfr {
       public static String code(String szyfr) {
 
 
-            char[] arr = szyfr.toCharArray();
+            char[] tab = szyfr.toCharArray();
 
             for(int i=0; i<szyfr.length(); i++){
-                if(arr[i] >= 65 && arr[i] <= 87 || arr[i] >= 97 && arr[i] <= 119){
-                    arr[i] += 3;
+                if(tab[i] >= 65 && tab[i] <= 87 || tab[i] >= 97 && tab[i] <= 119){
+                    tab[i] += 3;
                 }
-                switch(arr[i]){
-                    case 'X': arr[i] = 'A';
+                switch(tab[i]){
+                    case 'X': tab[i] = 'A';
                         break;
-                    case 'Y': arr[i] = 'B';
+                    case 'Y': tab[i] = 'B';
                         break;
-                    case 'Z': arr[i] = 'C';
+                    case 'Z': tab[i] = 'C';
                         break;
-                    case 'x': arr[i] = 'a';
+                    case 'x': tab[i] = 'a';
                         break;
-                    case 'y': arr[i] = 'b';
+                    case 'y': tab[i] = 'b';
                         break;
-                    case 'z': arr[i] = 'c';
+                    case 'z': tab[i] = 'c';
                         break;
                 }
 
             }
-          String result = String.valueOf(arr);
+          String result = String.valueOf(tab);
           return result;
         }
         public static void main(String[] args){
